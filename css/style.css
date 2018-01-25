@@ -1,3 +1,21 @@
 nav.navbar-default {
-  background:green;
+  background:rgb(63,32,80);
+  color: white;
+}
+body > nav > div > div.collapse.navbar-collapse > ul > li.active > a{
+  background: none;
+  color:white;
+}
+body > nav > div > div.collapse.navbar-collapse > ul > li.active > a:hover{
+  background:rgb(249,0,85);
+  color:white;
+}
+body > nav > div > div.collapse.navbar-collapse > ul > li:nth-child(2) > a{
+  color:white;
+}
+body > nav > div > div.collapse.navbar-collapse > ul > li:nth-child(3) > a{
+  color: white;
+}
+.lead{
+  font-size:16px;
 }
